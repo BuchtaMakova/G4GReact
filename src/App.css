@@ -1,0 +1,335 @@
+a.subcategoryLink:link{
+  text-decoration: none;
+  color:#3f51b5;
+}
+a.subcategoryLink:hover{
+  text-decoration: none;
+  color: #3ba4fa;
+}
+a.subcategoryLink:visited{
+  text-decoration: none;
+  color: #3f51b5;
+}
+a.subcategoryLink:visited:hover{
+  text-decoration: none;
+  color: #3ba4fa;
+}
+
+.tableOverflow{
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+max-width:200px;
+}
+
+.tableOverflowName{
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  max-width:200px;
+}
+
+
+
+.Overflow-container {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.SubCategory-stripe {
+  width: 54.8%;
+  margin: auto;
+  background-color: #3f51b5;
+  border: #3f51b5;
+  color: white;
+}
+
+.ContentCard-stripe {
+  background-color: #3f51b5;
+  border: #3f51b5;
+  color: white;
+}
+
+.White-text {
+  color: white;
+}
+
+.Navbar-color {
+  background-color: black;
+  color: white;
+}
+
+.Thread {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.Content-left-side {
+  background-color: #673ab7;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: white;
+}
+
+.Content-right-side {
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.Content-height {
+  min-height: 200px;
+}
+
+.Comment-height {
+  min-height: 150px;
+}
+
+.White-bg {
+  background-color: white;
+  margin: auto;
+  width: 55%;
+}
+
+.Round-corners-content {
+  border-radius: 15px;
+  word-wrap: break-word;
+  min-height: 200px;
+}
+
+.Round-corners-comment {
+  border-radius: 15px;
+  word-wrap: break-word;
+}
+
+.Collapse-icon {
+  float: right;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.SubCategory-container {
+  width: 54.8%;
+  margin: auto;
+  background-color: white;
+}
+
+.Cmnt-text-cnt {
+  width: 55%;
+  margin: auto;
+}
+
+.Filter-post-container {
+  width: 55%;
+  margin: auto;
+}
+
+.Content-responsive {
+  width: 55%;
+  margin: auto;
+}
+
+.Filter-container {
+  width: 55%;
+  display: flex;
+  margin: auto;
+}
+
+.Filter {
+  width: 15%;
+  flex: 0.5;
+}
+
+.Create-post {
+  margin: auto;
+  flex: 1;
+}
+
+.Content {
+  margin-top: 30px;
+}
+
+.Category-container {
+  width: 55.5%;
+  margin: auto;
+  border-radius: 8px;
+  text-align: left;
+  padding: 15px 0px 15px 10px;
+  background-color: #673ab7;
+  color: white;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.Arrow{
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.CategoryName{
+flex-grow: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .SubCategory-container {
+    width: 100%;
+  }
+  .SubCategory-stripe {
+    width: 100%;
+  }
+  .Cmnt-text-cnt {
+    width: 80%;
+  }
+  .Content-left-side {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+  }
+  .Content-right-side {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .Filter-post-container {
+    width: 60%;
+  }
+  .Content-responsive {
+    width: 100%;
+  }
+  .Category-container {
+    width: 100%;
+    border-radius: 0px;
+    border-left: 0px;
+    border-right: 0px;
+  }
+  .numera{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .ContentCard-stripe {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .Content-labels{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 992px) {
+  .SubCategory-stripe {
+    width: 100%;
+    display: none;
+  }
+
+
+}
+
+@media only screen and (min-width: 992px) {
+  .Count-labels {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .Content-responsive {
+    width: 75%;
+  }
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.numera {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 35%;
+}
+
+.numero{
+text-align: center;
+flex-grow: 2;
+  font-size: 40pt;
+  line-height: 1;
+}
+
+.lejbl{
+  flex-grow: 2;
+  text-align: center;
+  font-size: 20pt;
+}
+
+.lejbls{
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 35%;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-image: linear-gradient(
+          to left top,
+          #271b27,
+          #321c34,
+          #3c1d42,
+          #451d52,
+          #4d1e62,
+          #4d1d61,
+          #4c1d60,
+          #4c1c5f,
+          #431b4c,
+          #381a3b,
+          #2c192c,
+          #1f171e
+  );
+  background-size: cover;
+  background-position: top;
+  min-height: 100vh;
+}
+
+.indexDelete{
+  display: flex;
+  justify-content:end;
+  align-items:center;
+}
+
+.getForm{
+  width: 100%;
+}
