@@ -53,7 +53,7 @@ export default function (props) {
               variant="primary"
               onClick={() => updateContent()}
             >
-              lool
+              Post
             </Button>
           </Form>
         </div>
